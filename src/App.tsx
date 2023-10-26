@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { TabsList, TabContent, TabLoader } from './components';
-
 import tabsData from './tabs.json';
 
 const App: React.FC = () => {
