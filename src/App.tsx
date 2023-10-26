@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { TabsList, TabContent, TabLoader } from './components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import tabsData from './tabs.json';
+
+const App: React.FC = () => {
+    return (
+        <Router>
+            <div>
+                <TabsList tabs={tabsData} />
+                <hr />
+                <Routes>
+                    <Route path="/" element={<TabLoader path={tabsData[0].path} />} />
+                    {tabsData.map((tab) => (
+                        <Route
+                            key={tab.id}
+                            path={`/${tab.id}`}
+                            element={
+                                <TabContent title={tab.title}>
+                                    <TabLoader path={tab.path} />
+                                </TabContent>
+                            }
+                        />
+                    ))}
+                </Routes>
+            </div>
+        </Router>
+    );
+};
 
 export default App;
