@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, createBrowserRouter, Route, Routes} from 'react-router-dom';
 import { TabsList, TabContent, TabLoader } from './components';
 
 import tabsData from './tabs.json';
@@ -11,7 +11,14 @@ const App: React.FC = () => {
                 <TabsList tabs={tabsData} />
                 <hr />
                 <Routes>
-                    <Route path="/" element={<TabLoader path={tabsData[0].path} />} />
+                    <Route
+                        path="/"
+                        element={
+                            <TabContent title={tabsData[0].title}>
+                                <TabLoader path={tabsData[0].path} />
+                            </TabContent>
+                        }
+                    />
                     {tabsData.map((tab) => (
                         <Route
                             key={tab.id}
@@ -30,3 +37,14 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+export const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <TabsList tabs={tabsData} />,
+    },
+    // {
+    //     path: "child",
+    //     element: <Children/>,
+    // },
+]);
