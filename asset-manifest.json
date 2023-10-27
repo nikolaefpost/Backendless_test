@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/nikolaefpost/Backendless_test.git/static/css/main.e6c13ad2.css",
+    "main.js": "/nikolaefpost/Backendless_test.git/static/js/main.def2318d.js",
+    "static/css/508.40222e0d.chunk.css": "/nikolaefpost/Backendless_test.git/static/css/508.40222e0d.chunk.css",
+    "static/js/508.31cb260e.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/508.31cb260e.chunk.js",
+    "static/js/443.6a0ac243.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/443.6a0ac243.chunk.js",
+    "static/js/100.4b823a56.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/100.4b823a56.chunk.js",
+    "static/js/398.a23a5ac0.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/398.a23a5ac0.chunk.js",
+    "static/js/887.0286a95b.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/887.0286a95b.chunk.js",
+    "static/js/629.8f711948.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/629.8f711948.chunk.js",
+    "static/js/628.cde33796.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/628.cde33796.chunk.js",
+    "static/js/793.e90f8cb0.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/793.e90f8cb0.chunk.js",
+    "static/js/667.357f5edb.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/667.357f5edb.chunk.js",
+    "static/js/787.ae971348.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/787.ae971348.chunk.js",
+    "static/js/930.5410416a.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/930.5410416a.chunk.js",
+    "static/js/89.212d9b90.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/89.212d9b90.chunk.js",
+    "static/js/607.0e2f49b3.chunk.js": "/nikolaefpost/Backendless_test.git/static/js/607.0e2f49b3.chunk.js",
+    "static/media/index.cjs": "/nikolaefpost/Backendless_test.git/static/media/index.87283f34b94ab8669cb4.cjs",
+    "static/media/logo.svg": "/nikolaefpost/Backendless_test.git/static/media/logo.6ce24c58023cc2f8fd88.svg",
+    "static/media/task.txt": "/nikolaefpost/Backendless_test.git/static/media/task.5409985c50422de8d7e8.txt",
+    "index.html": "/nikolaefpost/Backendless_test.git/index.html",
+    "main.e6c13ad2.css.map": "/nikolaefpost/Backendless_test.git/static/css/main.e6c13ad2.css.map",
+    "main.def2318d.js.map": "/nikolaefpost/Backendless_test.git/static/js/main.def2318d.js.map",
+    "508.40222e0d.chunk.css.map": "/nikolaefpost/Backendless_test.git/static/css/508.40222e0d.chunk.css.map",
+    "508.31cb260e.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/508.31cb260e.chunk.js.map",
+    "443.6a0ac243.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/443.6a0ac243.chunk.js.map",
+    "629.8f711948.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/629.8f711948.chunk.js.map",
+    "628.cde33796.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/628.cde33796.chunk.js.map",
+    "793.e90f8cb0.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/793.e90f8cb0.chunk.js.map",
+    "787.ae971348.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/787.ae971348.chunk.js.map",
+    "930.5410416a.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/930.5410416a.chunk.js.map",
+    "89.212d9b90.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/89.212d9b90.chunk.js.map",
+    "607.0e2f49b3.chunk.js.map": "/nikolaefpost/Backendless_test.git/static/js/607.0e2f49b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.def2318d.js"
+  ]
+}
